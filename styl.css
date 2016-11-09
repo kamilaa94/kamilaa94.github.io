@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+height:100%;
+background-image: url('dirty.png');
+background-position: top center;
+background-attachment: fixed;
+}
+
+.Header{
+background-image: url('logo.png');
+width:830px;
+height:210px;
+margin:auto;
+}
+
+.Witaj p{
+font-family: 'Alegreya SC', sans-serif;
+font-size:4.5em;
+color: #FF6699;	
+padding-left:500px;
+}
+
+.Cytat h1{
+font-family: 'Alegreya SC', sans-serif;
+font-size:1.5em;
+font-style:italic;
+color: #FF6699;	
+padding-top:30px;
+padding-left:300px;
+padding-right:200px;
+}
+
+.Cytat h2{
+font-family: 'Alegreya SC', sans-serif;
+font-size:1.0em;
+color: #FF6699;		
+padding-top:30px;
+padding-left:850px;
+	
+}
+
+.Menu{
+text-align: center;
+font-family: 'Akronim', sans-serif;
+color: white;
+font-size:3.0em;
+}
+
+a{
+display: inline-block;
+padding: 30px;
+text-decoration : none;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover{
+color: #FF6699;
+}
+
+.Foto{
+padding-left:300px;
+padding-right:200px;
+}
+
+.Foto h5{
+font-family: 'Alegreya SC', sans-serif;
+font-size:2.0em;
+font-style:italic;
+color: #FF6699;		
+}
+
+p{
+font-family: 'Alegreya SC', sans-serif;
+font-size:1.5em;
+color: #FF6699;	
+}
+
+.Foto img{
+border: 6px solid  white;
+border-radius: 15px;
+}
+
+.Media img {
+padding-top:35px;
+padding-left:150px;
+padding-left:120px;
+}
+
+.Cloudd{
+width:800px;
+height:60px;
+margin:auto;
+}
+
+.Cloud{
+width:800px;
+height:60px;
+margin:auto;
+}
+
+.Text{
+font-family: 'Alegreya SC', sans-serif;
+font-size:1.5em;
+color: #FF6699;	
+padding-top:50px;
+padding-left:300px;
+padding-right:200px;
+}
+
+.Text img{
+padding-left:500px;
+padding-right:300px;
+padding-bottom:100px;
+background-image:url('cloud4.png');
+
+}
+
+.Mail h3{
+font-family: 'Akronim', sans-serif;
+font-size:4.0em;
+color: #FF6699;	
+padding-left:390px;
+padding-top:50px;
+}
+
+.Mail h4{
+font-family: 'Akronim', sans-serif;
+font-size:3.0em;
+color: #FF6699;	
+padding-left:610px;
+}
+
+@media (max-width: 400px){
+	.hero{
+		font-size: 15px;
+		height: 130px;
+		line-height: 90px;
+	}
+	.top{
+		height: 130px;
+	}
+}
+
